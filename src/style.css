@@ -1,6 +1,9 @@
 body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/136/191/original/vintage-paper.jpg?1722283584");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/136/192/original/annie-spratt-bGdiuIyN3Rs-unsplash.jpg?1722284382");
   font-family: Helvetica, Arial, sans-serif;
+  max-width: 100%;
+  height: 100%;
+  background-size: cover;
 }
 
 a {
@@ -12,7 +15,7 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #272044;
+  color: rgb(254, 236, 232);
 }
 .container {
   margin: 120px auto;
@@ -47,13 +50,14 @@ form {
   padding: 14px 24px;
   width: 150px;
   font-size: 16px;
+  background-color: rgb(194, 168, 193);
 }
 .poem {
   font-size: 14px;
   background-color: white;
   padding: 20px;
   line-height: 24px;
-  border-left: 3px solid #885df1;
+  border-left: 3px solid rgb(194, 168, 193);
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
