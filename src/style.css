@@ -31,16 +31,31 @@ form {
   background-color: rgb(254, 236, 232);
   border-radius: 10px;
   display: flex;
+  flex-direction: column;
   margin-bottom: 30px;
+  gap: 10px;
 }
 
 .instructions {
   padding: 16px;
   border: 1px solid rgba(39, 33, 66, 05);
-  width: 80%;
+
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
+}
+.expand {
+  border-radius: 50px;
+  border: 1px solid rgba(39, 33, 66, 05);
+  padding: 16px;
+  font-size: 16px;
+}
+.hint {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  opacity: 10px;
+  text-align: center;
 }
 
 .submit-button {
@@ -48,9 +63,16 @@ form {
   border: none;
   border-radius: 50px;
   padding: 14px 24px;
-  width: 150px;
+
   font-size: 16px;
   background-color: rgb(194, 168, 193);
+  cursor: pointer;
+  transition: all 235ms ease-in-out;
+  display: block;
+}
+.submit-button:hover {
+  background-color: rgb(193, 221, 199);
+  transform: translatey(2px);
 }
 .prompt {
   font-size: 14px;
