@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI poem generator</title>
   </head>
   <body>
@@ -12,7 +14,7 @@
         <h1>Prompts to get you writing</h1>
       </header>
       <main>
-        <form>
+        <form id="prompt-generator-form">
           <input
             type="text"
             placeholder="Enter the topic you want to write about"
@@ -23,7 +25,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">The prompt will go here</div>
+        <div class="prompt" id="prompts"></div>
       </main>
       <footer>
         This project was created with ❤️ by
