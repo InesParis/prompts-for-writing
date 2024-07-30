@@ -54,8 +54,9 @@ form {
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 20px;
-  opacity: 10px;
+  opacity: 0.6;
   text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .submit-button {
@@ -74,6 +75,7 @@ form {
   background-color: rgb(193, 221, 199);
   transform: translatey(2px);
 }
+
 .prompt {
   font-size: 14px;
   background-color: rgb(254, 236, 232);
